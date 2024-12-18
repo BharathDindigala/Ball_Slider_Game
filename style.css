@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+#game {
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+
+#character {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 400px;
+    left: 190px;
+    z-index: 1000;
+}
+
+.block {
+    width: 400px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+}
+
+.hole {
+    width: 40px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+}
+
+#stats {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
